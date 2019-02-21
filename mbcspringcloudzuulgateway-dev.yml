@@ -2,7 +2,7 @@ zuul:
   routes:
     api-order:
       path: /api-order/**
-      service-id: mbc.order
+      service-id: mbc.member
     api-member:
       path: /api-member/**
-      service-id: mbc.member
+      service-id: mbc.order
